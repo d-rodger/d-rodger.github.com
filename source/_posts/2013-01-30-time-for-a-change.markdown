@@ -32,13 +32,14 @@ categories: [airG, job, learning]
 <ul>
 	<li>CassandraDB</li>
 	<li>Couchbase 2.x</li>
+	<li>FoundationDB</li>
 	<li>elasticsearch</li>
-	<li>M2M (Machine-to-Machine)</li>
-	<li>Virtualization</li>
-	<li>Algorithms</li>
 	<li>logstash</li>
 	<li>Storm</li>
-	<li>ZooKeeper</li>
+	<li>ZooKeeper</li>	
+	<li>Virtualization</li>
+	<li>Algorithms</li>
+	<li>M2M (Machine-to-Machine)</li>
 </ul>
 
 <p>
@@ -50,9 +51,9 @@ categories: [airG, job, learning]
 	<li>Volcano - An Extensible and Parallel Query Evaluation System</li>
 	<li>Sagas</li>
 	<li>Bigtable: A Distributed Storage System for Structured Data</li>
-	<li>Dynamo: AMAzon's Highly Available Key-value Store</li>
+	<li>Dynamo: Amazon's Highly Available Key-value Store</li>
 </ul>
 
 <p>
-	Many others of course, but this is part of my initial list.
+	There are many others of course, this is just part of my initial list.
 </p>
