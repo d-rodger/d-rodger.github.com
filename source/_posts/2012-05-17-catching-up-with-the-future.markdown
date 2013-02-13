@@ -19,7 +19,7 @@ Other times…</p>
 
 <p><strong>When you don’t know what your choice means</strong></p>
 
-<p><img alt="MongoDB" height="100" width="225" src="http://media.mongodb.org/logo-mongodb.png"></a></p>
+<p><img alt="MongoDB" height="100" width="225" src="http://media.mongodb.org/logo-mongodb.png"/></p>
 
 <p>About 8 months ago, one project team was facing a high volume of reads 
 (and a fairly high volume of writes). They decided to try using MongoDB for 
@@ -41,7 +41,7 @@ billing state wasn’t consistent.</p>
 
 <p><strong>Speed and consistency</strong></p>
 
-<p><img alt="Redis" height="100" width="200" src="http://redis.io/images/redis.png"></a></p>
+<p><img alt="Redis" height="100" width="200" src="http://redis.io/images/redis.png"/></p>
 
 <p>
 Since it was now impacting users for something they had paid for, I became involved from the billing side of @work. Myself and another developer (from the Integrations team) volunteered to take care of it. We were faced with a few problems:
