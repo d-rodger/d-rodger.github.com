@@ -3,7 +3,7 @@ layout: post
 title: "Android Emulator 2.2 and Android Market"
 date: 2010-11-02 17:20
 comments: true
-categories: [android google emulator market]
+categories: [android, google, emulator, market]
 ---
 <p>
 One of the drawbacks to not having an actual Android phone (for now) is that I want to see what apps are available, but Google only has a sampling of what’s available on their <a href="http://www.android.com/market/" title="Android Market" target="_blank">web site</a>. I find that rather annoying.
