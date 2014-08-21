@@ -16,7 +16,7 @@ categories: [php, python, django, erezlife, domane, trek, gran fondo]
 <h3>Completely unrelated to programming</h3>
 <p>I bought a new road bike. I've ridden the same bike for nearly 8 years, and it's just not comfortable. Trust me when I say, get a bike fitting before you buy a bike. Plus the technology in bikes has improved quite a bit during this time, and the carbon fiber in the frames these days is incredible.</p>
 
-<p><img alighn="left" alt="Trek Domane" src=https://dl.dropboxusercontent.com/u/7133191/Trek_Domane.png></p>
+<p><img align="left" alt="Trek Domane" src=https://dl.dropboxusercontent.com/u/7133191/Trek_Domane.png></p>
 
 <p>This is my new ride. Why yes, that <b>is</b> a <a href="http://www.trekbikes.com/ca/en/projectone#model/domane6series" target="_blank">ProjectOne</a> bike :-). This pic is really what it looks like, since ProjectOne lets you customize the parts and colors. Part of my plan for next year is to ride in some of the Gran Fondo's (Grand Rides). Either (or both):</p>
 

@@ -14,5 +14,5 @@ href="http://corp.airg.com">airG</a>).</p>
 <p>I have used Perl + Moose, Redis, Cassandra, node.js, beanstalkd (among
 others) to make things that work.</p>
 
-<p>Love developing solutions, prefer open source, diving into nosql, scala.</p>
+<p>Love developing solutions, prefer open source, diving into nosql, functional programming.</p>
 
