@@ -3,7 +3,7 @@ layout: post
 title: "Space...The Final Frontier"
 date: 2014-08-23 10:29
 comments: true
-categories: 
+categories: [learning, learning how to learn, spaced repetition, repetition]
 ---
 <p><img align="top" alt="Space" src="https://dl.dropboxusercontent.com/u/7133191/space-637x398.jpg"></p>
 
@@ -29,4 +29,5 @@ categories:
 <ul>
 <li>Article: Derek Sivers. <a href="http://sivers.org/srs">Memorizing a programming language using spaced repetition software</a>. Derek Sivers</li>
 <li>Article: Gary Wolf. <a href="http://quantifiedself.com/2012/06/spaced-repetition-and-learning/">Spaced Repetition and Learning</a>. Quantified Self</li>
+<li>Article: wikipedia. <a href="http://en.wikipedia.org/wiki/Spaced_repetition">Spaced Repetition</a>. Wikipedia</li>
 </ul>
