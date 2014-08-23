@@ -25,6 +25,6 @@ categories: [learning, numbers, chunking, diffuse, deliberate practice]
 <h4>Citations</h4>
 <ul>
 <li>Article: Frank Oppenheimer. <a href="http://en.wikipedia.org/wiki/Frank_Oppenheimer">"the best way to learn is to teach"</a>. wikipedia</li>
-<li>Article: Anne Murphy Paul. <a href="ideas.time.com/2011/11/30/the-protege-effect/">"The Protege Effect"</a> Time.</li>
-<li>Article: Kendra Cherry. <a href="http://psychology.about.com/od/educationalpsychology/tp/effective-learning.htm">"How to Become a More Effective Learner"</a> About.com</li>
+<li>Article: Anne Murphy Paul. <a href="ideas.time.com/2011/11/30/the-protege-effect/">"The Protege Effect"</a>. Time.</li>
+<li>Article: Kendra Cherry. <a href="http://psychology.about.com/od/educationalpsychology/tp/effective-learning.htm">"How to Become a More Effective Learner"</a>. About.com</li>
 </ul>
