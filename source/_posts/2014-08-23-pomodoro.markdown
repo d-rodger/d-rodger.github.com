@@ -1,0 +1,25 @@
+---
+layout: post
+title: "You say tomato, I say pomodoro"
+date: 2014-08-25 13:14
+comments: true
+categories: [learning, learning how to learn, pomodoro]
+---
+<p><img align="top" alt='pomodoro' src="https://dl.dropboxusercontent.com/u/7133191/pomodoro-timer11.jpg"></p>
+
+<p>Ever find yourself with a project or task to do, but not the motivation to start?</p>
+
+<p>It becomes easy to find distractions doesn't it? You're brain is trying to find ways to avoid the small amount of displeasure it experiences getting started on something, especially something difficult. But there are ways to encourage your brain. Let's focus on the Pomodoro Technique.</p>
+
+<p>The Pomodoro Technique is a time management method developed by Francesco Cirillo. The idea is to use a timer, and work for 25 minutes and then take a small break, where you reward yourself. The reward is important, because it gives you motivation and encouragement for getting through the 25 minutes of uninterrupted focus. The method is based on the idea that frequent breaks can improve mental agility.</p>
+
+<p><img align="top" alt='pomodoro flow' src="https://dl.dropboxusercontent.com/u/7133191/Pomodoro_flow.jpg"></p>
+
+<p>After four pomodoro sessions, take a longer break after the fourth one. Thirty minutes is the usual recommendation. Now this doesn't mean to stop working. Instead switch to another task, now check your emails or arrange those meetings that you avoided while you were in your pomodori.</p>
+
+<p>I find this technique particularly useful at work. I can determine which task I am going to work on, set a timer on the computer, and focus on it - no email, no news feeds - just concentration on the problem at hand.</p>
+
+<h4>Citations</h4>
+<ul>
+<li>Article: wikipedia. <a href="http://en.wikipedia.org/wiki.Pomodoro_Technique">Pomodoro Technique</a>. Wikipedia</li>
+</ul>
