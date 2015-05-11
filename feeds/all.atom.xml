@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>DevSlant</title><link href="http://devslant.com/" rel="alternate"></link><link href="http://devslant.com/feeds/all.atom.xml" rel="self"></link><id>http://devslant.com/</id><updated>2014-08-27T19:14:00-07:00</updated><entry><title>Learning How To Learn</title><link href="http://devslant.com/learning-how-to-learn.html" rel="alternate"></link><updated>2014-08-27T19:14:00-07:00</updated><author><name>Derek Rodger</name></author><id>tag:devslant.com,2014-08-27:learning-how-to-learn.html</id><summary type="html">&lt;p&gt;Just a short note, if you're here to review the Learning How to Learn Assignment #2, please take a look at:
+<feed xmlns="http://www.w3.org/2005/Atom"><title>DevSlant</title><link href="http://devslant.com/" rel="alternate"></link><link href="http://devslant.com/feeds/all.atom.xml" rel="self"></link><id>http://devslant.com/</id><updated>2015-05-11T05:42:00-07:00</updated><entry><title>Small blog changes</title><link href="http://devslant.com/small-blog-changes.html" rel="alternate"></link><updated>2015-05-11T05:42:00-07:00</updated><author><name>Derek Rodger</name></author><id>tag:devslant.com,2015-05-11:small-blog-changes.html</id><summary type="html">&lt;p&gt;
+Once again, it's been a very log time since I have posted anything.
+&lt;/p&gt;
+
+&lt;p&gt;
+I've changed what I use behind the scenes to generate this blog. Since I switched to hosting it on GitHub, I've been using Octopress to generate the site. Octopress is developed in Ruby, and gets updated about as often as I update my blog...
+&lt;/p&gt;
+
+&lt;p&gt;
+Since I don't use Ruby (I'm all about Python now), and I wanted something that was still being developed, I've switched the site to using Pelican, which will allow me to use my Python knowledge to customize as I go.
+&lt;/p&gt;</summary></entry><entry><title>Learning How To Learn</title><link href="http://devslant.com/learning-how-to-learn.html" rel="alternate"></link><updated>2014-08-27T19:14:00-07:00</updated><author><name>Derek Rodger</name></author><id>tag:devslant.com,2014-08-27:learning-how-to-learn.html</id><summary type="html">&lt;p&gt;Just a short note, if you're here to review the Learning How to Learn Assignment #2, please take a look at:
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="http://devslant.com/blog/2014/08/21/a-mind-for-learning/"&gt;A Mind for Learning&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="http://devslant.com/blog/2014/08/23/space-dot-dot-dot-the-final-frontier/"&gt;Space...The Final Frontier&lt;/a&gt;&lt;/li&gt;
