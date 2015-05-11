@@ -42,3 +42,6 @@ SOCIAL = False
 SEARCH_BOX = True
 
 THEME = 'plugins/octopress_theme'
+
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
