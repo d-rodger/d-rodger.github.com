@@ -39,3 +39,6 @@ GITHUB_USER = 'drodger'
 
 TWITTER_WIDGET_ID = '438774350494183424'
 SOCIAL = False
+SEARCH_BOX = True
+
+THEME = 'plugins/octopress_theme'
