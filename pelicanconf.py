@@ -21,8 +21,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
+LINKS = (('2Scoops of Django', 'http://twoscoopspress.org/'),
+         ('Full Stack Python', 'http://www.fullstackpython.com/'),
+         ('Django', 'https://www.djangoproject.com/'),
          ('Python.org', 'http://python.org/'),
+         ('Pelican', 'http://getpelican.com/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),)
 # ('You can modify those links in your config file', '#'),)
 
@@ -44,4 +47,4 @@ SEARCH_BOX = True
 THEME = 'plugins/octopress_theme'
 
 STATIC_PATHS = ['images', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, }
