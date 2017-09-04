@@ -1,4 +1,4 @@
-Title: "Time for a Change"
+Title: Time for a Change
 Date: 2013-01-30 00:06
 Category: Learning
 Tags: airG, job, learning
@@ -20,7 +20,7 @@ Tags: airG, job, learning
 </p>
 
 <p>
-	Last year was when I really took an interest in the whole nosql area, along with node.js. This year is MOAR! I expect Perl is not what I will end up working with any longer, at least not for a majority of the software most companies want developed.The JVM-based languages look really interesting, I recently picked up 'Land of Lisp', and may even do some old-school C again. I find more and more that I want to know the features of most languages, and be able to use a mix, with a concentration of one or two.
+	Last year was when I really took an interest in the whole nosql area, along with node.js. This year is MOAR! I expect Perl is not what I will end up working with any longer, at least not for a majority of the software most companies want developed. The JVM-based languages look really interesting, I recently picked up 'Land of Lisp', and may even do some old-school C again. I find more and more that I want to know the features of most languages, and be able to use a mix, with a concentration of one or two.
 </p>
 
 <p>

@@ -3,3 +3,6 @@ output
 cache
 *.pyc
 *.pid
+themes/
+output/
+plugins/

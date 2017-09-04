@@ -1,4 +1,4 @@
-Title: "Android Emulator 2.2 and Android Market"
+Title: Android Emulator 2.2 and Android Market
 Date: 2010-11-02 17:20
 Category: Programming
 Tags: android, google, emulator, market
@@ -55,4 +55,4 @@ ro.config.nocheckin=yes
 	<li>Ok, now go start the emulator again, and you should be good to go!</li>
 </ol>
 
-<img alt="emulator" src="http://dl.dropbox.com/u/7133191/Capture.jpg"/>
+<img alt="emulator" src="images/Capture.jpg"/>

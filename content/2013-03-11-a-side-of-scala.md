@@ -1,12 +1,12 @@
-Title: "A side of Scala"
-Date: 2013-03-11 15:55
-Category: Programming 
+Title: A side of Scala
+Date: 2013-03-11 15:5
+Category: Programming
 Tags: scala, perl
 
-<p><img align="top" alt="Scala Logo" src=https://dl.dropbox.com/u/7133191/scalaLogo.png></p>
+<p><img align="top" alt="Scala Logo" height="100" width="200" src="images/scala.png"></p>
 
 <p>
-	I've been investing time in a few different technologies and programming languages lately. One of the languages that has surprised me is Scala. I'd heard about it, even took a peek at it many years ago, and promptly went on to other things. However, after meeting with Jeremy Pierre <a href="http://noisycode.com" title="NoiseCode" target="_blank">(noisycode.com/)</a> from HootSuite, I decided to take another look at it. 
+	I've been investing time in a few different technologies and programming languages lately. One of the languages that has surprised me is Scala. I'd heard about it, even took a peek at it many years ago, and promptly went on to other things. However, after meeting with Jeremy Pierre <a href="http://noisycode.com" title="NoiseCode" target="_blank">(noisycode.com/)</a> from HootSuite, I decided to take another look at it.
 </p>
 
 <p>
@@ -23,4 +23,4 @@ Tags: scala, perl
 
 <p>
 	I've only just begun with Scala, and my views may very well change as I learn more about it. For now, it seems like an interesting (but growing) niche. There is a Vancouver meetup group - <a href="http://www.meetup.com/vancouver-scala/" title="scala" target="_blank">Vancouver Scala</a>. Hopefully there will be some meetups and presentations there soon.
-</p>	
+</p>

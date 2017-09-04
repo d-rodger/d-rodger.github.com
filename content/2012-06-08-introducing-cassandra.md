@@ -1,9 +1,9 @@
-Title: "Introducing Cassandra"
+Title: Introducing Cassandra
 Date: 2012-06-08 22:25
 Category: Programming
 Tags: cassandra, datastax, nosql, opscenter, Tim Berglund
 
-<p><img align="left" alt="Cassandra Logo" height="131" src="http://dl.dropbox.com/u/7133191/cassandra200.jpg-323ea7227766a48a.jpeg" width="200"/></p>
+<p><img align="top" alt="Cassandra Logo" height="131" src="images/cassandra_logo.png" width="200"/></p>
 
 <p>Lately I&#8217;ve been trying out <a href="http://cassandra.apache.org/" 
 title="Cassandra" target="_blank">Cassandra</a> @ work. Just recently I took a 
@@ -120,7 +120,7 @@ setup as described above on each node that you want as part of the cluster. Go
 ahead and start up your Cassandra instances.</p>
 <p><strong>OpsCenter</strong></p>
 <p>Take a look at this:<img alt="opscenter" height="468"
-src="http://www.datastax.com/wp-content/uploads/2012/04/opsc-multi-cluster.jpg"
+src="images/opsc-multi-cluster.jpg"
 width="900"/></p>
 <p>Download the <a href="http://www.datastax.com/products/opscenter"
 title="OpsCenter" target="_blank">OpsCenter</a>. This is pretty cool. The
