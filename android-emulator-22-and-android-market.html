@@ -1,265 +1,299 @@
 <!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>"Android Emulator 2.2 and Android Market" &mdash; DevSlant</title>
-  <meta name="author" content="Derek Rodger">
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>  Android Emulator 2.2 and Android Market
+ | Devslant</title>
+
+    <meta name="author" content="Derek Rodger"/>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"/>
+    <link rel="stylesheet" href="http://devslant.com/theme/css/jquery.mglass.css"/>
+    <link rel="stylesheet" href="http://devslant.com/theme/css/pygment-solarized-dark.css"/>
+    <link rel="stylesheet" href="http://devslant.com/theme/css/style.css"/>
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'/>
+      <link href='https://fonts.googleapis.com/css?family=Expletus+Sans' rel='stylesheet' type='text/css'>
 
 
+    <link rel="icon" href="http://devslant.com/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="http://devslant.com/favicon.ico" type="image/x-icon">
+
+    <!-- Feeds -->
 
 
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="page-header">
+        <h1><a href="http://devslant.com">Devslant</a> <small>Obviously Obfuscated Originality</small></h1>
+      </div>
+
+      <nav class="navbar navbar-default">
+
+        <!-- Hamburger menu for mobile -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#plumage-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://devslant.com" title="Obviously Obfuscated Originality">Devslant</a>
+        </div>
+
+        <!-- Menus and search forms -->
+        <div class="collapse navbar-collapse" id="plumage-navbar-collapse-1">
+
+          <ul class="nav navbar-nav">
+<li >
+                  <a href="http://devslant.com/pages/about.html">About</a>
+                </li>
+<li >
+                  <a href="http://devslant.com/pages/books.html">Books</a>
+                </li>
+<li >
+                  <a href="http://devslant.com/category/learning.html">Learning</a>
+                </li>
+<li >
+                  <a href="http://devslant.com/category/misc-security.html">Misc, Security</a>
+                </li>
+<li  class="active" >
+                  <a href="http://devslant.com/category/programming.html">Programming <span class="sr-only">(current)</span></a>
+                </li>
+          </ul>
 
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+            <form class="navbar-form navbar-right" role="search" action="http://devslant.com/search.html" onsubmit="return validateForm(this.elements['q'].value);">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" name="q" id="tipue_search_input" class="form-control search-query" placeholder="Search" required />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit"><i class="fa
+                        fa-search fa-fw"></i></button>
+                  </span>
+                </div>
+              </div>
+            </form>
+
+        </div>
+
+      </nav>
+
+    </div>
 
 
-    <link href="http://devslant.com/favicon.png" rel="icon">
+    <div class="container main">
 
-  <link href="http://devslant.com/theme/css/main.css" media="screen, projection"
-        rel="stylesheet" type="text/css">
 
-  <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
-        rel="stylesheet" type="text/css">
-  <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
-        rel="stylesheet" type="text/css">
-  <script src="http://devslant.com/theme/js/ender.js"></script>
-</head>
+      <div class="row">
+        <div class=" col-md-9  ">
+  <h1>
+    <a href="http://devslant.com/android-emulator-22-and-android-market.html" rel="bookmark" title="Permalink to Android Emulator 2.2 and Android Market">Android Emulator 2.2 and Android&nbsp;Market</a>
+  </h1>
+        </div>
+      </div>
 
-<body>
-  <header role="banner"><hgroup>
-  <h1><a href="http://devslant.com/">DevSlant</a></h1>
-    <h2>Obviously Obfuscated Originality</h2>
-</hgroup></header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-</ul>
+      <div class="row">
 
-<form action="https://www.google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="sitesearch" value="devslant.com">
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
 
-<ul class="main-navigation">
-      <li><a href="http://devslant.com/pages/about.html">About</a></li>
-      <li><a href="http://devslant.com/pages/books.html">Books</a></li>
-      <li >
-        <a href="http://devslant.com/category/learning.html">Learning</a>
-      </li>
-      <li >
-        <a href="http://devslant.com/category/misc.html">Misc</a>
-      </li>
-      <li >
-        <a href="http://devslant.com/category/misc-security.html">Misc, security</a>
-      </li>
-      <li class="active">
-        <a href="http://devslant.com/category/programming.html">Programming</a>
-      </li>
-</ul></nav>
-  <div id="main">
-    <div id="content">
-<div>
-  <article class="hentry" role="article">
-<header>
-      <h1 class="entry-title">"Android Emulator 2.2 and Android Market"</h1>
-    <p class="meta">
-<time datetime="2010-11-02T17:20:00-07:00" pubdate>Tue 02 November 2010</time>    </p>
-</header>
+        <div class=" col-md-9 " id="content" role="main">
+  
 
-  <div class="entry-content"><p>
-One of the drawbacks to not having an actual Android phone (for now) is that I want to see what apps are available, but Google only has a sampling of what’s available on their <a href="http://www.android.com/market/" title="Android Market" target="_blank">web site</a>. I find that rather annoying.
+  <div>
+    <p>
+One of the drawbacks to not having an actual Android phone (for now) is that I want to see what apps are available, but Google only has a sampling of what’s available on their <a href="http://www.android.com/market/" title="Android Market" target="_blank">web site</a>. I find that rather&nbsp;annoying.
 </p>
 
 <p>
-Of course, I do have the emulator, and in theory I should be able to do something with that. The emulator does not come with Market access, but there are system images of the virtual devices for v1.5 and 1.6.
+Of course, I do have the emulator, and in theory I should be able to do something with that. The emulator does not come with Market access, but there are system images of the virtual devices for v1.5 and&nbsp;1.6.
 </p>
 
 <p>
-I have the v1.5, and it’s ok, but I wanted to see what was available for v2.2, which now has <a href="http://developer.android.com/resources/dashboard/platform-versions.html" title="android versions" target="_blank">36% of all Android</a> users on it.
+I have the v1.5, and it’s ok, but I wanted to see what was available for v2.2, which now has <a href="http://developer.android.com/resources/dashboard/platform-versions.html" title="android versions" target="_blank">36% of all Android</a> users on&nbsp;it.
 </p>
 
 <p>
-I ended up using a ROM image from <a href="http://android.modaco.com/content/google-nexus-one-nexusone-modaco-com/317849/22-oct-r24-modaco-custom-rom-desire-port-for-nexus-one-with-online-kitchen-2-2-froyo/" title="Modaco" target="_blank">modaco</a> for the nexus one (note: link may require registration).
+I ended up using a <span class="caps">ROM</span> image from <a href="http://android.modaco.com/content/google-nexus-one-nexusone-modaco-com/317849/22-oct-r24-modaco-custom-rom-desire-port-for-nexus-one-with-online-kitchen-2-2-froyo/" title="Modaco" target="_blank">modaco</a> for the nexus one (note: link may require&nbsp;registration).
 </p>
 
 <p>
-So here’s how it all comes together (note, I am using Windows below, but it’s nearly identical under Mac or Linux):
+So here’s how it all comes together (note, I am using Windows below, but it’s nearly identical under Mac or&nbsp;Linux):
 </p>
 
 <ol>
-    <li>Create an Android 2.2 AVD</li>
-    <li><p>Copy the system.img that comes with the Android SDK to your new AVD folder. ex:</p>
+    <li>Create an Android 2.2 <span class="caps">AVD</span></li>
+    <li><p>Copy the system.img that comes with the Android <span class="caps">SDK</span> to your new <span class="caps">AVD</span> folder.&nbsp;ex:</p>
 <pre>
 D:\android-sdk-windows\platforms\android-8\images\system.img
 to
 C:\Users\drodger\.android\avd\AndMarket22.avd\
 </pre></li>
-    <li><p>Now you’ll need to start the emulator, but you need to tell it how much internal storage to use (the default isn’t enough). In the AVD manager, select the New… button by the Hardware section, and scroll down and select the Device ram size property, and then edit the value to 128 (just click on the value). Here’s the command line version:</p>
+    <li><p>Now you’ll need to start the emulator, but you need to tell it how much internal storage to use (the default isn’t enough). In the <span class="caps">AVD</span> manager, select the New… button by the Hardware section, and scroll down and select the Device ram size property, and then edit the value to 128 (just click on the value). Here’s the command line&nbsp;version:</p>
     <pre>D:\android-sdk-windows\tools\emulator -avd AndMarket22.avd -partition-size 128</pre></li>
-    <li>Wait. Wait some more. The emulator is slow to load this one up sometimes. Don’t bother with the next step until the emulator has completely started.</li>
+    <li>Wait. Wait some more. The emulator is slow to load this one up sometimes. Don’t bother with the next step until the emulator has completely&nbsp;started.</li>
     <li>Now you need to get the build.prop file from within the emulator image, and make a change, and push the change back, like so:
     <pre>D:\android-sdk-windows\tools\adb pull /system/build.prop</pre></li>
-    <li>Now edit that file (it will now be in your tools\ directory), and comment out the following line by putting a '#' at the beginning of the line:
+    <li>Now edit that file (it will now be in your tools\ directory), and comment out the following line by putting a &#8216;#&#8217; at the beginning of the line:
 <pre>
 ro.config.nocheckin=yes
 #ro.config.nocheckin=yes
 </pre></li>
     <li>Now you need to push it back:<pre>D:\android-sdk-windows\tools\adb remount</pre></li>
     <li><pre>D:\android-sdk-windows\tools\adb push build.prop /system/build.prop</pre></li>
-    <li>Now you need the ROM you downloaded from modaco</li>
-    <li>Look within the zip, in the \system\app folder</li>
-    <li>Copy GoogleServicesFramework.apk and Vending.apk to your tools\ directory.</li>
+    <li>Now you need the <span class="caps">ROM</span> you downloaded from&nbsp;modaco</li>
+    <li>Look within the zip, in the \system\app&nbsp;folder</li>
+    <li>Copy GoogleServicesFramework.apk and Vending.apk to your tools\&nbsp;directory.</li>
     <li><pre>D:\android-sdk-windows\tools\adb push GoogleServicesFramework.apk /system/app</pre></li>
     <li><pre>D:\android-sdk-windows\tools\adb push Vending.apk /system.app</pre></li>
-    <li>Remove the SDK setup package:</li>
+    <li>Remove the <span class="caps">SDK</span> setup&nbsp;package:</li>
     <li><pre>D:\android-sdk-windows\tools\adb shell rm /system/app/SdkSetup.apk</pre></li>
-    <li>Close the emulator</li>
-    <li>Delete these files in your AVD directory: cache.img, userdata.img, userdata-qemu.img</li>
-    <li>Ok, now go start the emulator again, and you should be good to go!</li>
+    <li>Close the&nbsp;emulator</li>
+    <li>Delete these files in your <span class="caps">AVD</span> directory: cache.img, userdata.img,&nbsp;userdata-qemu.img</li>
+    <li>Ok, now go start the emulator again, and you should be good to&nbsp;go!</li>
 </ol>
 
-<p><img alt="emulator" src="http://dl.dropbox.com/u/7133191/Capture.jpg"/></p></div>
-    <footer>
-<p class="meta">
-  <span class="byline author vcard">
-    Posted by <span class="fn">
-        Derek Rodger
-    </span>
-  </span>
-<time datetime="2010-11-02T17:20:00-07:00" pubdate>Tue 02 November 2010</time>  <span class="categories">
-    <a class='category' href='http://devslant.com/category/programming.html'>Programming</a>
-  </span>
-  <span class="categories">
-    <a class="category" href="http://devslant.com/tag/android.html">android</a>,    <a class="category" href="http://devslant.com/tag/google.html">google</a>,    <a class="category" href="http://devslant.com/tag/emulator.html">emulator</a>,    <a class="category" href="http://devslant.com/tag/market.html">market</a>  </span>
-</p><div class="sharing">
-</div>    </footer>
-  </article>
-
-</div>
-<aside class="sidebar">
-  <section>
-    <h1>Recent Posts</h1>
-    <ul id="recent_posts">
-      <li class="post">
-          <a href="http://devslant.com/goodbye-gmail.html">Goodbye Gmail</a>
-      </li>
-      <li class="post">
-          <a href="http://devslant.com/neovim.html">Neovim</a>
-      </li>
-      <li class="post">
-          <a href="http://devslant.com/small-blog-changes.html">Small blog changes</a>
-      </li>
-      <li class="post">
-          <a href="http://devslant.com/learning-how-to-learn.html">Learning How To Learn</a>
-      </li>
-      <li class="post">
-          <a href="http://devslant.com/you-say-tomato-i-say-pomodoro.html">"You say tomato, I say pomodoro"</a>
-      </li>
-    </ul>
-  </section>
-  <section>
-      
-    <h1>Categories</h1>
-    <ul id="recent_posts">
-        <li><a href="http://devslant.com/category/learning.html">Learning</a></li>
-        <li><a href="http://devslant.com/category/misc.html">Misc</a></li>
-        <li><a href="http://devslant.com/category/misc-security.html">Misc, Security</a></li>
-        <li><a href="http://devslant.com/category/programming.html">Programming</a></li>
-    </ul>
-  </section>
- 
-
-  <section>
-  <h1>Tags</h1>
-    <a href="http://devslant.com/tag/google.html">google</a>,    <a href="http://devslant.com/tag/cassandra.html">cassandra</a>,    <a href="http://devslant.com/tag/nosql.html">nosql</a>,    <a href="http://devslant.com/tag/vim.html">vim</a>,    <a href="http://devslant.com/tag/numbers.html">numbers</a>,    <a href="http://devslant.com/tag/learning.html">learning</a>,    <a href="http://devslant.com/tag/tutanota.html">tutanota</a>,    <a href="http://devslant.com/tag/market.html">market</a>,    <a href="http://devslant.com/tag/gmail.html">gmail</a>,    <a href="http://devslant.com/tag/neovim.html">neovim</a>,    <a href="http://devslant.com/tag/php.html">php</a>,    <a href="http://devslant.com/tag/scala.html">scala</a>,    <a href="http://devslant.com/tag/deliberate-practice.html">deliberate practice</a>,    <a href="http://devslant.com/tag/openmailbox.html">openmailbox</a>,    <a href="http://devslant.com/tag/redis.html">redis</a>,    <a href="http://devslant.com/tag/perl.html">perl</a>,    <a href="http://devslant.com/tag/granfondo.html">granfondo</a>,    <a href="http://devslant.com/tag/tim-berglund.html">Tim Berglund</a>,    <a href="http://devslant.com/tag/mongodb.html">mongodb</a>,    <a href="http://devslant.com/tag/datastax.html">datastax</a>,    <a href="http://devslant.com/tag/protonmail.html">protonmail</a>,    <a href="http://devslant.com/tag/android.html">android</a>,    <a href="http://devslant.com/tag/emulator.html">emulator</a>,    <a href="http://devslant.com/tag/python.html">python</a>,    <a href="http://devslant.com/tag/chunking.html">chunking</a>,    <a href="http://devslant.com/tag/erezlife.html">erezlife</a>,    <a href="http://devslant.com/tag/repetition.html">repetition</a>,    <a href="http://devslant.com/tag/diffuse.html">diffuse</a>,    <a href="http://devslant.com/tag/trek.html">trek</a>,    <a href="http://devslant.com/tag/airg.html">airG</a>,    <a href="http://devslant.com/tag/job.html">job</a>,    <a href="http://devslant.com/tag/opscenter.html">opscenter</a>,    <a href="http://devslant.com/tag/django.html">django</a>,    <a href="http://devslant.com/tag/whiteout.html">whiteout</a>,    <a href="http://devslant.com/tag/domane.html">domane</a>,    <a href="http://devslant.com/tag/security.html">security</a>  </section>
-
-
-
-  <section>
-    <h1>GitHub Repos</h1>
-    <ul id="gh_repos">
-      <li class="loading">Status updating...</li>
-    </ul>
-    <script type="text/javascript">
-      $.domReady(function(){
-          if (!window.jXHR){
-              var jxhr = document.createElement('script');
-              jxhr.type = 'text/javascript';
-              jxhr.src = 'http://devslant.com/theme/js/jXHR.js';
-              var s = document.getElementsByTagName('script')[0];
-              s.parentNode.insertBefore(jxhr, s);
-          }
-
-          github.showRepos({
-              user: 'drodger',
-              count: 5,
-              skip_forks: false,
-              target: '#gh_repos'
-          });
-      });
-    </script>
-    <script src="http://devslant.com/theme/js/github.js" type="text/javascript"> </script>
-  </section>
-
-    <section>
-        <h1>Blogroll</h1>
-        <ul>
-            <li><a href="http://twoscoopspress.org/" target="_blank">2Scoops of Django</a></li>
-            <li><a href="http://www.fullstackpython.com/" target="_blank">Full Stack Python</a></li>
-            <li><a href="https://www.djangoproject.com/" target="_blank">Django</a></li>
-            <li><a href="http://python.org/" target="_blank">Python.org</a></li>
-            <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
-            <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
-        </ul>
-    </section>
-
-<section>
-  <h1>Latest Tweets</h1>
-  <ul id="tweets">
-    <li class="loading">Status updating...</li>
-  </ul>
-  <script type="text/javascript">
-    $.domReady(function(){
-      var widgetId = '438774350494183424',
-          domId = 'tweets',
-          count = 5,
-          hyperlinkUrlsPlus = true,
-          showUserPhoto = false,
-          timeOfTweet = true,
-          dateFormat = 'default',
-          showRetweets = false,
-          customOutputFn = null,
-          showReplyRetweetButtons = false;
-
-      twitterFetcher.fetch(
-        widgetId,
-        domId,
-        count,
-        hyperlinkUrlsPlus,
-        showUserPhoto,
-        timeOfTweet,
-        dateFormat,
-        showRetweets,
-        customOutputFn,
-        showReplyRetweetButtons
-      );
-    });
-  </script>
-  <script src="/theme/js/twitter.js" type="text/javascript"> </script>
-    <p>Follow <a href="http://twitter.com/devslant">@devslant</a></p>
-</section>
-</aside>    </div>
+<p><img alt="emulator" src="images/Capture.jpg"/></p>
   </div>
-  <footer role="contentinfo"><p>
-    Copyright &copy;  2010&ndash;2015  Derek Rodger &mdash;
-  <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
-</p></footer>
-  <script src="http://devslant.com/theme/js/modernizr-2.0.js"></script>
-  <script src="http://devslant.com/theme/js/octopress.js" type="text/javascript"></script>
-</body>
+
+
+
+        </div>
+
+          <div class="col-md-3">
+  <div class="well">
+
+    <p><abbr title="2010-11-02T17:20:00-07:00"><i class="fa fa-calendar"></i> Tue 02 November 2010</abbr></p>
+
+      <p><address>
+        <i class="fa fa-user"></i> By
+          <a href="http://devslant.com/author/derek-rodger.html" rel="author">Derek Rodger</a>
+      </address></p>
+
+    <hr/>
+
+      <p>
+              <a href="http://devslant.com/category/programming.html" rel="tag"
+                  data-toggle="tooltip" class="label label-info"
+                  title="5 articles in this category">Programming</a>
+            <a href="/tag/market.html" data-toggle="tooltip"
+      class="label label-default"
+      title="1 article with this tag">market</a>
+            <a href="/tag/google.html" data-toggle="tooltip"
+      class="label label-default"
+      title="1 article with this tag">google</a>
+            <a href="/tag/android.html" data-toggle="tooltip"
+      class="label label-default"
+      title="1 article with this tag">android</a>
+            <a href="/tag/emulator.html" data-toggle="tooltip"
+      class="label label-default"
+      title="1 article with this tag">emulator</a>
+      </p>
+      <hr/>
+
+
+
+  </div>
+            
+
+          </div>
+
+      </div>
+
+    </div>
+
+    <!-- TODO: make footer sticky -->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row">
+
+            <div class="col-md-2">
+                <h5>Blog roll</h5>
+                <ul class="list-unstyled">
+                  <li>  <a href="https://dbader.org/">
+      <img src="https://icons.better-idea.org/icon?url=dbader.org&size=16" width="16" height="16" class="icon" alt="dbader.org icon"/>
+    Dan Bader
+  </a></li>
+                  <li>  <a href="http://python.org/">
+      <img src="https://icons.better-idea.org/icon?url=python.org&size=16" width="16" height="16" class="icon" alt="python.org icon"/>
+    Python.org
+  </a></li>
+                  <li>  <a href="https://djangoproject.com/">
+      <img src="https://icons.better-idea.org/icon?url=djangoproject.com&size=16" width="16" height="16" class="icon" alt="djangoproject.com icon"/>
+    Django
+  </a></li>
+                  <li>  <a href="http://getpelican.com/">
+      <img src="https://icons.better-idea.org/icon?url=getpelican.com&size=16" width="16" height="16" class="icon" alt="getpelican.com icon"/>
+    Pelican
+  </a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h5>Professional profiles</h5>
+                <ul class="list-unstyled">
+                  <li>  <a href="https://github.com/drodger">
+      <i class="fa fa-github"></i>
+    GitHub
+  </a></li>
+                  <li>  <a href="https://www.linkedin.com/in/devslant/">
+      <img src="https://icons.better-idea.org/icon?url=www.linkedin.com&size=16" width="16" height="16" class="icon" alt="www.linkedin.com icon"/>
+    LinkedIn
+  </a></li>
+                </ul>
+            </div>
+
+          <div class="col-md-2">
+            <h5>Browse content by</h5>
+            <ul class="list-unstyled">
+            </ul>
+          </div>
+
+          <div class="col-md-2 text-muted">
+            <h5>Copyright notice</h5>
+            <p>© Copyright 2010-2015 Derek Rodger.</p>
+          </div>
+
+          <div class="col-md-2 text-muted">
+            <h5>Disclaimer</h5>
+              <p>All opinions expressed in this site are my own personal opinions and are not endorsed by, nor do they represent the opinions of my previous, current and future employers or any of its affiliates, partners or customers.</p>
+          </div>
+
+          <div class="col-md-2">
+          </div>
+
+        </div>
+      </div>
+
+      <h5 class="text-right"><a href="#"><i class="fa fa-arrow-up"></i> Back to top</a></h5>
+
+      <div class="container">
+        <div class="row col-md-12 text-muted text-center">
+          Site generated by <a href="https://getpelican.com"> Pelican</a>.<br/>
+          <a href="https://github.com/kdeldycke/plumage"> Plumage</a> theme by <a href="https://kevin.deldycke.com">Kevin Deldycke</a>.
+        </div>
+      </div>
+
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
+    <script src="http://devslant.com/theme/js/jquery.mglass.js"></script>
+    <script src="http://devslant.com/theme/js/application.js"></script>
+
+  </body>
 </html>

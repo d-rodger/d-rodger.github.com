@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>DevSlant</title><link href="http://devslant.com/" rel="alternate"></link><link href="http://devslant.com/feeds/misc-security.atom.xml" rel="self"></link><id>http://devslant.com/</id><updated>2015-11-20T17:30:00-08:00</updated><entry><title>Goodbye Gmail</title><link href="http://devslant.com/goodbye-gmail.html" rel="alternate"></link><updated>2015-11-20T17:30:00-08:00</updated><author><name>Derek Rodger</name></author><id>tag:devslant.com,2015-11-20:goodbye-gmail.html</id><summary type="html">&lt;h2&gt;Email and Privacy&lt;/h2&gt;
+&lt;p&gt;I've been a long time user of Gmail. I use my gmail address for...well, everything that you need an email address for. But there's a downside to using a free service like Gmail. &lt;em&gt;You&lt;/em&gt; are the product - or more specfically data about you is the product - and it's being packaged and sold over and over and over...and it's also being scooped up by governments for 'security' (but really, domestic surveillance). Of course, governments contract that stuff out, so it's really...anyone could be accessing your data.&lt;/p&gt;
+&lt;h2&gt;So what to do about it?&lt;/h2&gt;
+&lt;p&gt;For starters, I am pulling away from services like Gmail, DropBox, etc.&lt;/p&gt;
+&lt;p&gt;I've signed up with a few email providers, and will likely stick with 1-2 of them.&lt;/p&gt;
+&lt;h2&gt;ProtonMail&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://protonmail.com"&gt;ProtonMail&lt;/a&gt; is in Switzerland. They provide encrypted email, and by that I mean the contents of your emails are stored encrypted, and your connection to ProtonMail is encrypted. Your emails are decrypted in your browser, so that's the &lt;em&gt;only&lt;/em&gt; place where anything can be read.&lt;/p&gt;
+&lt;p&gt;Emails sent to other ProtonMail users are of course encrypted, but what about sending an email to someone outside of ProtonMail?&lt;/p&gt;
+&lt;p&gt;Well, what happens is when the email from ProtonMail is sent, it actually just sends a special link back to ProtonMail, to where the email can be read &lt;em&gt;if&lt;/em&gt; you have the password.&lt;/p&gt;
+&lt;p&gt;Where do you get the password to read this email? That's where you have to have agreed to a password with the person who sent the email to you. A little bit cumbersome, at least the first time, but otherwise it works well.&lt;/p&gt;
+&lt;p&gt;Regular, unencrypted emails can still be sent to you, so you can stil get regular email sent to you, but at least once it's in ProtonMail's system, it's safe.&lt;/p&gt;
+&lt;p&gt;I've also found the Android client (currently in beta) to work well.&lt;/p&gt;
+&lt;h2&gt;Tutanota&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://tutanota.com"&gt;Tutanota&lt;/a&gt; is in Germany. Like ProtonMail, they provide end-to-end encrypted email.&lt;/p&gt;
+&lt;p&gt;They use the same mechanism as ProtonMail, ie a link is sent to where the encrypted email can be read, as long as you have the password.&lt;/p&gt;
+&lt;p&gt;So far I like both of these services. The provide both a free option as well as a paid version that provides more storage space (and that oh-so-good feeling of helping to support what are worthy businesses).&lt;/p&gt;
+&lt;p&gt;I'm also trying out &lt;a href="https://whiteout.io"&gt;whiteout.io&lt;/a&gt; and &lt;a href="https://www.openmailbox.org"&gt;openmailbox&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I'll keep gmail around, if only for having a junk email address.&lt;/p&gt;
+&lt;p&gt;Next up: Finding a replacement for DropBox.&lt;/p&gt;</summary><category term="security"></category><category term="gmail"></category><category term="tutanota"></category><category term="protonmail"></category><category term="whiteout"></category><category term="openmailbox"></category></entry></feed>

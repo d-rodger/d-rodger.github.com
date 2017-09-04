@@ -1,72 +1,118 @@
 <!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>Books &mdash; DevSlant</title>
-  <meta name="author" content="Derek Rodger">
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>  Books
+ | Devslant</title>
+
+    <meta name="author" content="Derek Rodger"/>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"/>
+    <link rel="stylesheet" href="http://devslant.com/theme/css/jquery.mglass.css"/>
+    <link rel="stylesheet" href="http://devslant.com/theme/css/pygment-solarized-dark.css"/>
+    <link rel="stylesheet" href="http://devslant.com/theme/css/style.css"/>
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'/>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'/>
+      <link href='https://fonts.googleapis.com/css?family=Expletus+Sans' rel='stylesheet' type='text/css'>
 
 
+    <link rel="icon" href="http://devslant.com/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="http://devslant.com/favicon.ico" type="image/x-icon">
+
+    <!-- Feeds -->
 
 
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="page-header">
+        <h1><a href="http://devslant.com">Devslant</a> <small>Obviously Obfuscated Originality</small></h1>
+      </div>
+
+      <nav class="navbar navbar-default">
+
+        <!-- Hamburger menu for mobile -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#plumage-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://devslant.com" title="Obviously Obfuscated Originality">Devslant</a>
+        </div>
+
+        <!-- Menus and search forms -->
+        <div class="collapse navbar-collapse" id="plumage-navbar-collapse-1">
+
+          <ul class="nav navbar-nav">
+<li >
+                  <a href="http://devslant.com/pages/about.html">About</a>
+                </li>
+<li  class="active" >
+                  <a href="http://devslant.com/pages/books.html">Books <span class="sr-only">(current)</span></a>
+                </li>
+<li >
+                  <a href="http://devslant.com/category/learning.html">Learning</a>
+                </li>
+<li >
+                  <a href="http://devslant.com/category/misc-security.html">Misc, Security</a>
+                </li>
+<li >
+                  <a href="http://devslant.com/category/programming.html">Programming</a>
+                </li>
+          </ul>
 
 
-    <link href="http://devslant.com/favicon.png" rel="icon">
+            <form class="navbar-form navbar-right" role="search" action="http://devslant.com/search.html" onsubmit="return validateForm(this.elements['q'].value);">
+              <div class="form-group">
+                <div class="input-group">
+                  <input type="text" name="q" id="tipue_search_input" class="form-control search-query" placeholder="Search" required />
+                  <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit"><i class="fa
+                        fa-search fa-fw"></i></button>
+                  </span>
+                </div>
+              </div>
+            </form>
 
-  <link href="http://devslant.com/theme/css/main.css" media="screen, projection"
-        rel="stylesheet" type="text/css">
+        </div>
 
-  <link href="//fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic"
-        rel="stylesheet" type="text/css">
-  <link href="//fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic"
-        rel="stylesheet" type="text/css">
-  <script src="http://devslant.com/theme/js/ender.js"></script>
-</head>
+      </nav>
 
-<body>
-  <header role="banner"><hgroup>
-  <h1><a href="http://devslant.com/">DevSlant</a></h1>
-    <h2>Obviously Obfuscated Originality</h2>
-</hgroup></header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
-</ul>
+    </div>
 
-<form action="https://www.google.com/search" method="get">
-  <fieldset role="search">
-    <input type="hidden" name="sitesearch" value="devslant.com">
-    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
-  </fieldset>
-</form>
 
-<ul class="main-navigation">
-      <li><a href="http://devslant.com/pages/about.html">About</a></li>
-      <li><a href="http://devslant.com/pages/books.html">Books</a></li>
-      <li >
-        <a href="http://devslant.com/category/learning.html">Learning</a>
-      </li>
-      <li >
-        <a href="http://devslant.com/category/misc.html">Misc</a>
-      </li>
-      <li >
-        <a href="http://devslant.com/category/misc-security.html">Misc, security</a>
-      </li>
-      <li >
-        <a href="http://devslant.com/category/programming.html">Programming</a>
-      </li>
-</ul></nav>
-  <div id="main">
-    <div id="content">
-<div>
-  <article role="article">
-    <header>
-      <h1 class="entry-title">Books</h1>
-    </header>
-    <h2>Favourite or Interesting Books</h2>
+    <div class="container main">
+
+
+      <div class="row">
+        <div class=" col-md-9  ">
+  <h1>
+    <a href="http://devslant.com/pages/books.html" rel="bookmark" title="Permalink to Books">Books</a>
+  </h1>
+        </div>
+      </div>
+
+      <div class="row">
+
+
+        <div class=" col-md-9 " id="content" role="main">
+  
+  <div>
+    <h2>Favourite or Interesting&nbsp;Books</h2>
 
 <div>
 <table>
@@ -79,10 +125,10 @@
 
         <tr>
             <td colspan="2" style="vertical-align:top">
-                <a href="http://www.amazon.ca/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1283557358&amp;sr=8-1" title="Clean Code" target="_blank"><img height="250" width="150" align="left" alt="Clean Code" src="http://ecx.images-amazon.com/images/I/41XojFFhYlL.jpg"/></a>
+                <img height="250" width="150" align="left" alt="Clean Code" src="../images/cleancode.jpg"/>
             </td>
             <td style="padding: 5px;">
-                <strong>Clean Code</strong> is one of a small selection of books that really seems to have captured the ideas needed to keep code from being designed and developed poorly. It will help you both detect and prevent code rot.
+                <strong><a href="http://www.amazon.ca/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1283557358&amp;sr=8-1" title="Clean Code" target="_blank">Clean Code</a></strong> is one of a small selection of books that really seems to have captured the ideas needed to keep code from being designed and developed poorly. It will help you both detect and prevent code rot.
 
                 Bob Martin has been around long enough, along with people like Martin Fowler to have the experience needed to write a book like this. It’s one of those core books that every developer should read, and re-read.
             </td>
@@ -90,19 +136,19 @@
 
         <tr>
             <td colspan="2" style="vertical-align:top">
-                <a href="http://www.amazon.ca/Algorithms-4th-Edition-ebook/dp/B004P8J1NA/ref=tmm_kin_title_0?ie=UTF8&qid=1362460204&sr=8-2" title="Algorithms, 4th Edition" target="_blank"><img height="250" width="150" align="left" alt="Algorithms, 4th Edition" src="http://ecx.images-amazon.com/images/I/41SRhYah3AL.jpg"></a>
+                <img height="250" width="150" align="left" alt="Algorithms, 4th Edition" src="../images/algorithms.jpg">
             </td>
             <td>
-                <strong>Algorithms</strong> by Robert Sedgewick & Kevin Wayne is a great practical book on algorithms. By this I mean, it presents the material not from a theoretical or analysis point of view, but as here is what you need to know to get this working. Sedgewick has other books covering analysis of algorithms. If you couple this book with the website that includes a vast amount of the book online, and even better, the Algorithms course on <a href="http://www.coursera.org" target="_blank">Coursera</a> that Sedgewick provides, you are going to immerse yourself in this topic, and come away with deep, practical knowledge.
+                <strong><a href="http://www.amazon.ca/Algorithms-4th-Edition-ebook/dp/B004P8J1NA/ref=tmm_kin_title_0?ie=UTF8&qid=1362460204&sr=8-2" title="Algorithms, 4th Edition" target="_blank">Algorithms</a></strong> by Robert Sedgewick <span class="amp">&amp;</span> Kevin Wayne is a great practical book on algorithms. By this I mean, it presents the material not from a theoretical or analysis point of view, but as here is what you need to know to get this working. Sedgewick has other books covering analysis of algorithms. If you couple this book with the website that includes a vast amount of the book online, and even better, the Algorithms course on <a href="http://www.coursera.org" target="_blank">Coursera</a> that Sedgewick provides, you are going to immerse yourself in this topic, and come away with deep, practical knowledge.
             </td>
         </tr>
 
         <tr>
-            <td colspan="2" style="vertical-align:top">             
-                <a href="http://www.amazon.ca/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/ref=sr_1_2?ie=UTF8&qid=1362461643&sr=8-2" title="Algorithm Design Manual, 2nd ed" target="_blank"><img height="250" width="150" align="left" alt="Algorithm Design Manual, 2nd ed" src="http://ecx.images-amazon.com/images/I/61-tS2sADZL._SL500_PIsitb-sticker-arrow-big,TopRight,35,-73_OU15_.jpg"></a>             
+            <td colspan="2" style="vertical-align:top">
+                <img height="250" width="150" align="left" alt="Algorithm Design Manual, 2nd ed" src="../images/algorithmdesignmanual.jpg">
             </td>
             <td>
-                Based heavily on real-world experiences, <strong>Algorithm Design Manual, 2nd ed</strong> covers the design and analysis of algorithms, and a section on what the author believes are the 75 most important algorithmic problems.
+                Based heavily on real-world experiences, <strong><a href="http://www.amazon.ca/Algorithm-Design-Manual-Steven-Skiena/dp/1849967202/ref=sr_1_2?ie=UTF8&qid=1362461643&sr=8-2" title="Algorithm Design Manual, 2nd ed" target="_blank">Algorithm Design Manual, 2nd ed</a></strong> covers the design and analysis of algorithms, and a section on what the author believes are the 75 most important algorithmic problems.
             </td>
         </tr>
     </tbody>
@@ -119,10 +165,10 @@
         <tbody>
             <tr>
                 <td colspan="2" style="vertical-align:top">
-                    <a href="http://www.amazon.ca/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU/ref=sr_1_1?ie=UTF8&qid=1408820978&sr=8-1&keywords=mind+for+numbers" title="A Mind for Numbers" target="_blank"><img height="250" width="150" align="left" alt="Mind for Numbers" src="http://ecx.images-amazon.com/images/I/41mGKcw7K-L._AA278_PIkin4,BottomRight,-46,22_AA300_SH20_OU15_.jpg"/></a>
+                    <img height="250" width="150" align="left" alt="Mind for Numbers" src="../images/amindfornumbers.jpg"/>
                 </td>
                 <td style="padding: 5px;">
-                    <strong>A Mind for Numbers</strong> is an <strong>excellent</strong> book on the latest that is known on how to learn (and how not to). Well written, well thought-out, with clear examples. I highly recommend this to anyone looking to improve their learning. There is also an online course available thorugh <a href="https://class.coursera.org/learning-001/">Coursera</a> that covers the material in the book.
+                    <strong><a href="http://www.amazon.ca/Mind-Numbers-Science-Flunked-Algebra-ebook/dp/B00G3L19ZU/ref=sr_1_1?ie=UTF8&qid=1408820978&sr=8-1&keywords=mind+for+numbers" title="A Mind for Numbers" target="_blank">A Mind for Numbers</a></strong> is an <strong>excellent</strong> book on the latest that is known on how to learn (and how not to). Well written, well thought-out, with clear examples. I highly recommend this to anyone looking to improve their learning. There is also an online course available thorugh <a href="https://class.coursera.org/learning-001/">Coursera</a> that covers the material in the book.
                 </td>
             </tr>
         </tbody>
@@ -138,10 +184,10 @@
     <tbody>
         <tr>
             <td colspan="2" style="vertical-align:top">
-                <a href="http://www.amazon.ca/Department-Mad-Scientists-Michael-Belfiore/dp/0061577936/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1267302226&amp;sr=8-1" title="Department of Mad Scientists" target="_blank"><img height="250" width="150" align="left" alt="Department of Mad Scientists" src="http://ecx.images-amazon.com/images/I/714JahU95nL._AA1200_.jpg"/></a></p>
+                <img height="250" width="150" align="left" alt="Department of Mad Scientists" src="../images/departmentofmadscientists.jpg"/></p>
             </td>
             <td>
-                In the <strong>Department of Mad Scientists</strong>, the author take you through a fascinating look at DARPA - The Defense Advanced Research Projects Agency. You may not have heard of DARPA, but among other things, they funded and helped develop something that today is called the Internet… If you have an interest in how big (outlandish) ideas get turned into reality when no one else in the world even thinks it’s possible, read this book :-).
+                In the <strong><a href="http://www.amazon.ca/Department-Mad-Scientists-Michael-Belfiore/dp/0061577936/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1267302226&amp;sr=8-1" title="Department of Mad Scientists" target="_blank">Department of Mad Scientists</a></strong>, the author take you through a fascinating look at <span class="caps">DARPA</span> - The Defense Advanced Research Projects Agency. You may not have heard of <span class="caps">DARPA</span>, but among other things, they funded and helped develop something that today is called the Internet… If you have an interest in how big (outlandish) ideas get turned into reality when no one else in the world even thinks it’s possible, read this book :-).
             </td>
         </tr>
     </tbody>
@@ -156,92 +202,98 @@
     <tbody>
         <tr>
             <td colspan="2" style="vertical-align:top">
-                <a href="http://www.amazon.ca/Daemon-Daniel-Suarez/dp/0451228731/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1283557602&amp;sr=1-1" title="Daemon" target="_blank"><img height="250" width="150" align="left" alt="Daemon" src="http://ecx.images-amazon.com/images/I/71qafeOxQZL._AA1065_.jpg"/></a>
+                <img height="250" width="150" align="left" alt="Daemon" src="../images/daemon.jpg"/>
             </td>
             <td>
-                When <strong>Daemon</strong> came out, it quickly became one of my favourite books of all time. It’s up there with Cryptonomicon and Neuromancer. I won’t give any spoilers, but if you liked Cryptonomicon, you’ll probably like this. The author is a techie who has worked in the industry, with some of the larger companies. He has a good grasp on current and near-future tech.
+                When <strong><a href="http://www.amazon.ca/Daemon-Daniel-Suarez/dp/0451228731/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1283557602&amp;sr=1-1" title="Daemon" target="_blank">Daemon</a></strong> came out, it quickly became one of my favourite books of all time. It’s up there with Cryptonomicon and Neuromancer. I won’t give any spoilers, but if you liked Cryptonomicon, you’ll probably like this. The author is a techie who has worked in the industry, with some of the larger companies. He has a good grasp on current and near-future tech.
             </td>
         </tr>
     </tbody>
 </table>
-  </article>
-</div>
+  </div>
+        </div>
+
+          <div class="col-md-3">
 <aside class="sidebar">
   <section>
     <h1>Recent Posts</h1>
     <ul id="recent_posts">
       <li class="post">
-          <a href="http://devslant.com/goodbye-gmail.html">Goodbye Gmail</a>
+          <a href="http://devslant.com/goodbye-gmail.html">Goodbye Gmail</a>
       </li>
       <li class="post">
           <a href="http://devslant.com/neovim.html">Neovim</a>
       </li>
       <li class="post">
-          <a href="http://devslant.com/small-blog-changes.html">Small blog changes</a>
+          <a href="http://devslant.com/a-side-of-scala.html">A side of Scala</a>
       </li>
       <li class="post">
-          <a href="http://devslant.com/learning-how-to-learn.html">Learning How To Learn</a>
+          <a href="http://devslant.com/time-for-a-change.html">Time for a Change</a>
       </li>
       <li class="post">
-          <a href="http://devslant.com/you-say-tomato-i-say-pomodoro.html">"You say tomato, I say pomodoro"</a>
+          <a href="http://devslant.com/introducing-cassandra.html">Introducing Cassandra</a>
       </li>
     </ul>
   </section>
-  <section>
-      
-    <h1>Categories</h1>
-    <ul id="recent_posts">
-        <li><a href="http://devslant.com/category/learning.html">Learning</a></li>
-        <li><a href="http://devslant.com/category/misc.html">Misc</a></li>
-        <li><a href="http://devslant.com/category/misc-security.html">Misc, Security</a></li>
-        <li><a href="http://devslant.com/category/programming.html">Programming</a></li>
+
+  <h1>Projects</h1>
+    <h2>Projects <small>(Python)</small></h2>
+    <p>Trying to complete over 100 projects in various categories in Python. Fork to learn any new language.</p>
+    <ul>
+        <li><a href="https://github.com/drodger/Projects">GitHub</a></li>
     </ul>
-  </section>
- 
-
-  <section>
-  <h1>Tags</h1>
-    <a href="http://devslant.com/tag/google.html">google</a>,    <a href="http://devslant.com/tag/cassandra.html">cassandra</a>,    <a href="http://devslant.com/tag/nosql.html">nosql</a>,    <a href="http://devslant.com/tag/vim.html">vim</a>,    <a href="http://devslant.com/tag/numbers.html">numbers</a>,    <a href="http://devslant.com/tag/learning.html">learning</a>,    <a href="http://devslant.com/tag/tutanota.html">tutanota</a>,    <a href="http://devslant.com/tag/market.html">market</a>,    <a href="http://devslant.com/tag/gmail.html">gmail</a>,    <a href="http://devslant.com/tag/neovim.html">neovim</a>,    <a href="http://devslant.com/tag/php.html">php</a>,    <a href="http://devslant.com/tag/scala.html">scala</a>,    <a href="http://devslant.com/tag/deliberate-practice.html">deliberate practice</a>,    <a href="http://devslant.com/tag/openmailbox.html">openmailbox</a>,    <a href="http://devslant.com/tag/redis.html">redis</a>,    <a href="http://devslant.com/tag/perl.html">perl</a>,    <a href="http://devslant.com/tag/granfondo.html">granfondo</a>,    <a href="http://devslant.com/tag/tim-berglund.html">Tim Berglund</a>,    <a href="http://devslant.com/tag/mongodb.html">mongodb</a>,    <a href="http://devslant.com/tag/datastax.html">datastax</a>,    <a href="http://devslant.com/tag/protonmail.html">protonmail</a>,    <a href="http://devslant.com/tag/android.html">android</a>,    <a href="http://devslant.com/tag/emulator.html">emulator</a>,    <a href="http://devslant.com/tag/python.html">python</a>,    <a href="http://devslant.com/tag/chunking.html">chunking</a>,    <a href="http://devslant.com/tag/erezlife.html">erezlife</a>,    <a href="http://devslant.com/tag/repetition.html">repetition</a>,    <a href="http://devslant.com/tag/diffuse.html">diffuse</a>,    <a href="http://devslant.com/tag/trek.html">trek</a>,    <a href="http://devslant.com/tag/airg.html">airG</a>,    <a href="http://devslant.com/tag/job.html">job</a>,    <a href="http://devslant.com/tag/opscenter.html">opscenter</a>,    <a href="http://devslant.com/tag/django.html">django</a>,    <a href="http://devslant.com/tag/whiteout.html">whiteout</a>,    <a href="http://devslant.com/tag/domane.html">domane</a>,    <a href="http://devslant.com/tag/security.html">security</a>  </section>
-
-
-
-  <section>
-    <h1>GitHub Repos</h1>
-    <ul id="gh_repos">
-      <li class="loading">Status updating...</li>
+    <h2>ansible-examples <small>(Shell)</small></h2>
+    <p>A few starter examples of ansible playbooks, to show features and how they work together.  See http://galaxy.ansible.com for example roles from the Ansible community for deploying many popular applications.</p>
+    <ul>
+        <li><a href="https://github.com/drodger/ansible-examples">GitHub</a></li>
     </ul>
-    <script type="text/javascript">
-      $.domReady(function(){
-          if (!window.jXHR){
-              var jxhr = document.createElement('script');
-              jxhr.type = 'text/javascript';
-              jxhr.src = 'http://devslant.com/theme/js/jXHR.js';
-              var s = document.getElementsByTagName('script')[0];
-              s.parentNode.insertBefore(jxhr, s);
-          }
-
-          github.showRepos({
-              user: 'drodger',
-              count: 5,
-              skip_forks: false,
-              target: '#gh_repos'
-          });
-      });
-    </script>
-    <script src="http://devslant.com/theme/js/github.js" type="text/javascript"> </script>
-  </section>
-
-    <section>
-        <h1>Blogroll</h1>
-        <ul>
-            <li><a href="http://twoscoopspress.org/" target="_blank">2Scoops of Django</a></li>
-            <li><a href="http://www.fullstackpython.com/" target="_blank">Full Stack Python</a></li>
-            <li><a href="https://www.djangoproject.com/" target="_blank">Django</a></li>
-            <li><a href="http://python.org/" target="_blank">Python.org</a></li>
-            <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
-            <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
-        </ul>
-    </section>
+    <h2>ansible-role-jenkins <small>(Groovy)</small></h2>
+    <p>Ansible Role - Jenkins CI</p>
+    <ul>
+          <li><a href="https://galaxy.ansible.com/geerlingguy/jenkins/">Homepage</a></li>
+        <li><a href="https://github.com/drodger/ansible-role-jenkins">GitHub</a></li>
+    </ul>
+    <h2>celery <small>(Python)</small></h2>
+    <p>Distributed Task Queue (development branch)</p>
+    <ul>
+          <li><a href="http://celeryproject.org">Homepage</a></li>
+        <li><a href="https://github.com/drodger/celery">GitHub</a></li>
+    </ul>
+    <h2>django-scheduler <small>(Python)</small></h2>
+    <p>A calendaring app for Django</p>
+    <ul>
+        <li><a href="https://github.com/drodger/django-scheduler">GitHub</a></li>
+    </ul>
+    <h2>django-scheduler-views <small>(Python)</small></h2>
+    <p>Static files for the scheduler project</p>
+    <ul>
+        <li><a href="https://github.com/drodger/django-scheduler-views">GitHub</a></li>
+    </ul>
+    <h2>drodger.github.com <small>(HTML)</small></h2>
+    <p>devslant website</p>
+    <ul>
+        <li><a href="https://github.com/drodger/drodger.github.com">GitHub</a></li>
+    </ul>
+    <h2>emacs <small>(Emacs Lisp)</small></h2>
+    <p>Old emacs configs</p>
+    <ul>
+        <li><a href="https://github.com/drodger/emacs">GitHub</a></li>
+    </ul>
+    <h2>nvim <small>(Vim script)</small></h2>
+    <p>neovim config</p>
+    <ul>
+        <li><a href="https://github.com/drodger/nvim">GitHub</a></li>
+    </ul>
+    <h2>vim <small>(VimL)</small></h2>
+    <p>Old vimrc</p>
+    <ul>
+        <li><a href="https://github.com/drodger/vim">GitHub</a></li>
+    </ul>
+    <h2>zsh <small>(Shell)</small></h2>
+    <p>zsh configs</p>
+    <ul>
+        <li><a href="https://github.com/drodger/zsh">GitHub</a></li>
+    </ul>
 
 <section>
   <h1>Latest Tweets</h1>
@@ -278,13 +330,110 @@
   <script src="/theme/js/twitter.js" type="text/javascript"> </script>
     <p>Follow <a href="http://twitter.com/devslant">@devslant</a></p>
 </section>
-</aside>    </div>
-  </div>
-  <footer role="contentinfo"><p>
-    Copyright &copy;  2010&ndash;2015  Derek Rodger &mdash;
-  <span class="credit">Powered by <a href="http://getpelican.com">Pelican</a></span>
-</p></footer>
-  <script src="http://devslant.com/theme/js/modernizr-2.0.js"></script>
-  <script src="http://devslant.com/theme/js/octopress.js" type="text/javascript"></script>
-</body>
+
+  <section>
+
+    <h1>Categories</h1>
+    <ul id="recent_posts">
+        <li><a href="http://devslant.com/category/learning.html">Learning</a></li>
+        <li><a href="http://devslant.com/category/misc-security.html">Misc, Security</a></li>
+        <li><a href="http://devslant.com/category/programming.html">Programming</a></li>
+    </ul>
+  </section>
+
+  <section>
+  <h1>Tags</h1>
+    <a href="http://devslant.com/tag/nosql.html">nosql</a>,    <a href="http://devslant.com/tag/neovim.html">neovim</a>,    <a href="http://devslant.com/tag/market.html">market</a>,    <a href="http://devslant.com/tag/scala.html">scala</a>,    <a href="http://devslant.com/tag/airg.html">airG</a>,    <a href="http://devslant.com/tag/whiteout.html">whiteout</a>,    <a href="http://devslant.com/tag/datastax.html">datastax</a>,    <a href="http://devslant.com/tag/protonmail.html">protonmail</a>,    <a href="http://devslant.com/tag/gmail.html">gmail</a>,    <a href="http://devslant.com/tag/mongodb.html">mongodb</a>,    <a href="http://devslant.com/tag/openmailbox.html">openmailbox</a>,    <a href="http://devslant.com/tag/tutanota.html">tutanota</a>,    <a href="http://devslant.com/tag/google.html">google</a>,    <a href="http://devslant.com/tag/job.html">job</a>,    <a href="http://devslant.com/tag/learning.html">learning</a>,    <a href="http://devslant.com/tag/android.html">android</a>,    <a href="http://devslant.com/tag/opscenter.html">opscenter</a>,    <a href="http://devslant.com/tag/perl.html">perl</a>,    <a href="http://devslant.com/tag/emulator.html">emulator</a>,    <a href="http://devslant.com/tag/tim-berglund.html">Tim Berglund</a>,    <a href="http://devslant.com/tag/redis.html">redis</a>,    <a href="http://devslant.com/tag/cassandra.html">cassandra</a>,    <a href="http://devslant.com/tag/vim.html">vim</a>,    <a href="http://devslant.com/tag/security.html">security</a>  </section>
+
+</aside> 
+            
+
+          </div>
+
+      </div>
+
+    </div>
+
+    <!-- TODO: make footer sticky -->
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row">
+
+            <div class="col-md-2">
+                <h5>Blog roll</h5>
+                <ul class="list-unstyled">
+                  <li>  <a href="https://dbader.org/">
+      <img src="https://icons.better-idea.org/icon?url=dbader.org&size=16" width="16" height="16" class="icon" alt="dbader.org icon"/>
+    Dan Bader
+  </a></li>
+                  <li>  <a href="http://python.org/">
+      <img src="https://icons.better-idea.org/icon?url=python.org&size=16" width="16" height="16" class="icon" alt="python.org icon"/>
+    Python.org
+  </a></li>
+                  <li>  <a href="https://djangoproject.com/">
+      <img src="https://icons.better-idea.org/icon?url=djangoproject.com&size=16" width="16" height="16" class="icon" alt="djangoproject.com icon"/>
+    Django
+  </a></li>
+                  <li>  <a href="http://getpelican.com/">
+      <img src="https://icons.better-idea.org/icon?url=getpelican.com&size=16" width="16" height="16" class="icon" alt="getpelican.com icon"/>
+    Pelican
+  </a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h5>Professional profiles</h5>
+                <ul class="list-unstyled">
+                  <li>  <a href="https://github.com/drodger">
+      <i class="fa fa-github"></i>
+    GitHub
+  </a></li>
+                  <li>  <a href="https://www.linkedin.com/in/devslant/">
+      <img src="https://icons.better-idea.org/icon?url=www.linkedin.com&size=16" width="16" height="16" class="icon" alt="www.linkedin.com icon"/>
+    LinkedIn
+  </a></li>
+                </ul>
+            </div>
+
+          <div class="col-md-2">
+            <h5>Browse content by</h5>
+            <ul class="list-unstyled">
+            </ul>
+          </div>
+
+          <div class="col-md-2 text-muted">
+            <h5>Copyright notice</h5>
+            <p>© Copyright 2010-2015 Derek Rodger.</p>
+          </div>
+
+          <div class="col-md-2 text-muted">
+            <h5>Disclaimer</h5>
+              <p>All opinions expressed in this site are my own personal opinions and are not endorsed by, nor do they represent the opinions of my previous, current and future employers or any of its affiliates, partners or customers.</p>
+          </div>
+
+          <div class="col-md-2">
+          </div>
+
+        </div>
+      </div>
+
+      <h5 class="text-right"><a href="#"><i class="fa fa-arrow-up"></i> Back to top</a></h5>
+
+      <div class="container">
+        <div class="row col-md-12 text-muted text-center">
+          Site generated by <a href="https://getpelican.com"> Pelican</a>.<br/>
+          <a href="https://github.com/kdeldycke/plumage"> Plumage</a> theme by <a href="https://kevin.deldycke.com">Kevin Deldycke</a>.
+        </div>
+      </div>
+
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fitvids/1.1.0/jquery.fitvids.min.js"></script>
+    <script src="http://devslant.com/theme/js/jquery.mglass.js"></script>
+    <script src="http://devslant.com/theme/js/application.js"></script>
+
+  </body>
 </html>
