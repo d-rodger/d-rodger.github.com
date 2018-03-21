@@ -66,10 +66,10 @@ GITHUB_SKIP_FORK = False
 GITHUB_SHOW_USER_LINK = False
 
 
-TWITTER_USER = 'devslant'
-TWITTER_WIDGET_ID = '438774350494183424'
+# TWITTER_USER = 'devslant'
+# TWITTER_WIDGET_ID = '438774350494183424'
 # SEARCH_BOX = True
-TIPUE_SEARCH = True
+# TIPUE_SEARCH = True
 
 # THEME = 'themes/backdrop'
 # THEME = 'themes/elegant'
@@ -85,8 +85,8 @@ TIPUE_SEARCH = True
 # THEME = 'themes/pelican-striped-html5up'
 # THEME = 'themes/pelican-twitchy'
 
-THEME = 'themes/plumage'
-# THEME = 'themes/octopress'
+# THEME = 'themes/plumage'
+THEME = 'themes/octopress'
 
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, }
