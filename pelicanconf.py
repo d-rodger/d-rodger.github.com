@@ -6,6 +6,7 @@ AUTHOR = 'Derek Rodger'
 SITENAME = 'Devslant'
 SITESUBTITLE = 'Obviously Obfuscated Originality'
 SITEURL = 'http://devslant.com'
+# SITEURL = 'http://localhost:9000'
 
 PATH = 'content'
 
@@ -45,55 +46,47 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 SOCIAL_WIDGET_NAME = 'Blog roll'
 SOCIAL = (('Dan Bader', 'https://dbader.org/'),
-          ('Python.org', 'http://python.org/'),
+          ('Python', 'https://python.org/'),
           ('Django', 'https://djangoproject.com/'),
-          ('Pelican', 'http://getpelican.com/'),)
+          ('Pelican', 'https://getpelican.com/'),)
 
 
 LINKS_WIDGET_NAME = 'Professional profiles'
 LINKS = (('GitHub', 'https://github.com/drodger'),
-         ('LinkedIn', 'https://www.linkedin.com/in/devslant/'),)
+         ('LinkedIn', 'https://linkedin.com/in/devslant/'),)
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
 PLUGIN_PATHS = ["plugins"]
-PLUGINS = ['tipue_search', 'jinja2content', 'pelican_githubprojects', ]
+PLUGINS = [
+    'tipue_search',
+    'jinja2content',
+    'pelican_githubprojects',
+]
 
 GITHUB_USER = 'drodger'
-GITHUB_REPO_COUNT = 5
-GITHUB_SKIP_FORK = False
-GITHUB_SHOW_USER_LINK = False
+GITHUB_REPO_COUNT = 8
 
+TIPUE_SEARCH = True
 
-# TWITTER_USER = 'devslant'
-# TWITTER_WIDGET_ID = '438774350494183424'
-# SEARCH_BOX = True
-# TIPUE_SEARCH = True
-
-# THEME = 'themes/backdrop'
-# THEME = 'themes/elegant'
 # THEME = 'themes/lovers'
-# THEME = 'themes/bricks'
 # THEME = 'themes/built-texts'
-# THEME = 'themes/gum'
-# THEME = 'themes/lovers'
 # THEME = 'themes/nest'
-# THEME = 'themes/notmyidea-cms'
 # THEME = 'themes/pelican-cait'
 # THEME = 'themes/pelican-simplegrey'
 # THEME = 'themes/pelican-striped-html5up'
 # THEME = 'themes/pelican-twitchy'
 
-# THEME = 'themes/plumage'
-THEME = 'themes/octopress'
+THEME = 'themes/plumage'
+# THEME = 'themes/octopress'
 
 STATIC_PATHS = ['images', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, }
 
 TAG_RULE = 'tag/{slug}/'
-# # PAGINATED_DIRECT_TEMPLATES = ('categories', 'archives')
 
+DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'search']
 
 RIGHT_SIDEBAR = """
 """
