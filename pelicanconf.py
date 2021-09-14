@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Derek Rodger'
 SITENAME = 'Devslant'
 SITESUBTITLE = 'Obviously Obfuscated Originality'
-SITEURL = 'http://devslant.com'
+SITEURL = 'http://www.devslant.com'
 # SITEURL = 'http://localhost:9000'
 
 PATH = 'content'
@@ -52,7 +52,7 @@ SOCIAL = (('Dan Bader', 'https://dbader.org/'),
 
 
 LINKS_WIDGET_NAME = 'Professional profiles'
-LINKS = (('GitHub', 'https://github.com/drodger'),
+LINKS = (('GitHub', 'https://github.com/d-rodger'),
          ('LinkedIn', 'https://linkedin.com/in/devslant/'),)
 
 # Uncomment following line if you want document-relative URLs when developing
@@ -65,7 +65,7 @@ PLUGINS = [
     'pelican_githubprojects',
 ]
 
-GITHUB_USER = 'drodger'
+GITHUB_USER = 'd-rodger'
 GITHUB_REPO_COUNT = 8
 
 TIPUE_SEARCH = True
