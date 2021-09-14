@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Derek Rodger'
 SITENAME = 'Devslant'
 SITESUBTITLE = 'Obviously Obfuscated Originality'
-SITEURL = 'http://www.devslant.com'
+SITEURL = 'https://www.devslant.com'
 # SITEURL = 'http://localhost:9000'
 
 PATH = 'content'
